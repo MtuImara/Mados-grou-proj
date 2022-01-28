@@ -1,0 +1,18 @@
+Create table utilisateur
+(
+	id_user int PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	num_cni varchar(100) NOT NULL,
+	nom_prenom varchar(100),
+	login varchar(100) NOT NULL,
+	password varchar(100) NOT NULL,
+	fonction varchar(100),
+	adresse varchar(100) NOT NULL
+);
+
+create table acheter
+(
+	id_acheter int PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	nom_prenom varchar(100),
+	carte_Visa varchar(100),
+	num_Parcelle varchar(100)
+);
